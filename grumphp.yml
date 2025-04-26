@@ -1,0 +1,11 @@
+grumphp:
+    tasks:
+        phpcs:
+            standard: ./phpcs.xml
+            warning_severity: 0
+            ignore_patterns: 
+                - ./resources/*
+                - ./database/migrations/*
+                - ./bootstrap/*
+                - ./storage/*
+                - ./public/*
